@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <title>Contact</title>
+   <body>
+      <header>
+		<div>
+			<h1>Butoni Restaurant</h1>
+		</div>
+		<div>
+			<nav>
+				<a href="index.html">Home</a> &nbsp;
+				<a href="menu.html">Menu</a> &nbsp;
+				<a href="contact.html">Contact Us</a>
+			</nav>
+		</div>
+      </header>
+	<main>
+		<section>
+			<form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+				<p>
+					<label for="Customer_name">Name:</label>
+					<input type="text" name="Customer_name" id="Customer_name">
+				</p>
+				<p>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email">
+				</p>
+				<p>
+					<label for="phone">Phone:</label>
+					<input type="text" name="phone" id="phone">
+				</p>
+				<p>
+					<label for="reason">Reason for Inquiry:</label>
+					<Select name="reason">
+						<option value="catering">Catering</option>
+						<option value="private_party">Private Party</option>
+						<option value="Feedback">Feedback</option>
+						<option value="Other">Other</option>
+					</Select>
+				</p>
+				<p>
+					<label for="add_info">Additional Information:</label>
+					<textarea type=" name="add_info" id="add_info" placeholder="Additional Information" rows="5" cols="50"></textarea>
+				</p>
+				<p>
+					<label for="visit">Have you been to the restaurant?</label>
+					<input type="radio" name="visit" id="No" value="No" checked><label for="No">No</label>&nbsp; 
+					<input type="radio" name="visit" id="Yes" value="Yes"><label for="Yes">Yes</label>
+				</p>
+				<p>
+					<label for="contact_days">Best days to contact you:</label>&nbsp;
+					
+					<input type="checkbox" name="contact_days" id="monday" value="monday"><label for="monday">M</label>&nbsp;
+					<input type="checkbox" name="contact_days" id="tuesday" value="tuesday"><label for="tuesday">T</label>&nbsp;
+					<input type="checkbox" name="contact_days" id="wednesday" value="wednesday"><label for="wednesday">W</label>&nbsp;
+					<input type="checkbox" name="contact_days" id="thursday" value="thursday"><label for="thursday">Th</label>&nbsp;
+					<input type="checkbox" name="contact_days" id="friday" value="friday"><label for="friday">F</label>&nbsp;
+				</p>
+				<input type="submit" value="Send Request">
+			</form>
+			
+        </section>
+	</main>
+		<section>
+			<footer>
+				<div>
+					<p>28 Slater & Bank Street, Ottawa, Ontario, K90 2T5<br>
+					<a href="tel:+1 800-688-9279">+1 800-688-9279</a></p>
+				</div>
+            </footer>
+		</section>
+        
+   </body>
+</html>
