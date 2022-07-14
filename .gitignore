@@ -89,3 +89,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 /classwork/HelloWorld/target/
+/classwork/Adder/target/
+/classwork/WindowMaster/target/
+/classwork/PracticeProgramming/target/
